@@ -13,9 +13,9 @@ window.onload = function() {
 			
       // Add each callbell event to events
       for(var i = 0; i < lines.length; i++) { 
-			  var event = {
-        		date:"unknown",
-    				location:"unknown",
+			var event = {
+			date:"unknown",
+    		room:"unknown",
             time:"unknown",
             type:"unknown",
             bell:"unknown"
@@ -25,13 +25,13 @@ window.onload = function() {
         event.date = fileInput.files[0].name.substring(4,12);
         event.date = event.date.substring(0,4)+"-"+event.date.substring(4,6)+"-"+event.date.substring(6,8);
         
-				// Time
+		// Time
         event.time = lines[i].substring(0,8); // ignore milliseconds
         
         // Location
         locStart = lines[i].indexOf("- ")+2;
         locStop = locStart+3;
-        event.location=lines[i].substring(locStart, locStop);
+        event.room = lines[i].substring(locStart, locStop);
         
         // Type of call: New or Clear call. Only concerned with call bells, not errors etc.
         if (lines[i].indexOf("New Call") != -1) {
@@ -67,7 +67,7 @@ window.onload = function() {
         	var call = {
             date:events[i].date,
           	time:events[i].time,
-            location:events[i].location,
+            room:events[i].room,
             duration:"tbd",
             bell:events[i].bell
           };
@@ -90,7 +90,7 @@ window.onload = function() {
       +"<tr>"
       +"<th>Date</th>"
       +"<th>Time</th>"
-      +"<th>Location</th>"
+      +"<th>Room</th>"
       +"<th>Duration</th>"
       +"<th>Bell</th>"
       +"</tr>"
@@ -103,7 +103,7 @@ window.onload = function() {
 		  "<tr>"
         + "<td>" + log[i].date + "</td>"
         + "<td>" + log[i].time + "</td>"
-        + "<td>" + log[i].location + "</td>"
+        + "<td>" + log[i].room + "</td>"
         + "<td>" + log[i].duration + "</td>"
         + "<td>" + log[i].bell + "</td>"
 		+ "</tr>";
