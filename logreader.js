@@ -8,76 +8,77 @@ window.onload = function() {
 		
     // Callback after reader.readAsText(file) is done
     reader.onload = function(e) {
-			var lines = reader.result.split(/[\r\n]+/g); // tolerate both Windows and Unix linebreaks
-      var events = new Array();
+		var lines = reader.result.split(/[\r\n]+/g); // tolerate both Windows and Unix linebreaks
+		var log = new Array();
 			
-      // Add each callbell event to events
-      for(var i = 0; i < lines.length; i++) { 		      
-        // Type of event. Only process "New Call" events.
-        if (lines[i].indexOf("New Call") != -1) {
-			var event = {
-				date:"unknown",
-				room:"unknown",
-				time:"unknown",
-				duration:"unknown",
-				bell:"unknown",
-				tag:"unknown"
-			};
-			
-			// Date
-			event.date = fileInput.files[0].name.substring(4,12);
-			event.date = event.date.substring(0,4)+"-"+event.date.substring(4,6)+"-"+event.date.substring(6,8);
-			
-			// Time
-			event.time = lines[i].substring(0,8); // ignore milliseconds
-			
-			// Location
-			var locStart = lines[i].indexOf("- ")+2;
-			event.room = lines[i].substring(locStart, locStart+3);
+      // Add each callbell event to log
+		for(var i = 0; i < lines.length; i++) { 		      
+			// Type of event. Only process "New Call" log.
+			if (lines[i].indexOf("New Call") != -1) {
+				var event = {
+					date:"unknown",
+					room:"unknown",
+					time:"unknown",
+					duration:"unknown",
+					bell:"unknown",
+					tag:"unknown"
+				};
 				
-			// Tag
-			var tagStart = lines[i].indexOf("Tag:")+5;
-			event.tag = lines[i].substring(tagStart,tagStart+4);
-			
-			// Bell code
-			if (lines[i].indexOf("NURSE CALL") != -1) {
-				event.bell = "Nurse Call";
-			} else if (lines[i].indexOf("BED EMERG") != -1) {
-				event.bell = "Bed Emergency";
-			} else if (lines[i].indexOf("BED PAN") != -1) {
-				event.bell = "Bed Pan";
-			} else if (lines[i].indexOf("PAIN") != -1) {
-				event.bell = "Pain"; 
-			} else if (lines[i].indexOf("CORD OUT") != -1) {
-				event.bell = "Cord Out";
-			} else if (lines[i].indexOf("BATH") != -1) {
-				event.bell = "Bathroom";
-			} 
-			
-			// Duration. Look ahead through log to find "Clear Call" event that matches this "New Call"
-			// Todo: think about this
-			for (var j = i + 1; j < lines.length; j++) {
-				// Looking for clear calls only
-				if (lines[j].indexOf("Clear Call") != -1) {
-					// Compare room number
-					locStart = lines[j].indexOf("- ")+2;
-					locStop = locStart+3;
-					if (lines[j].substring(locStart, locStop) == event.room) {
-						// Compare tag
-						tagStart = lines[j].indexOf("Tag:")+5;
-						if (event.tag == lines[j].substring(tagStart,tagStart+4)) {
-							event.duration = timeDiff(event.time,lines[j].substring(0,8));
-							j = lines.length; // break out of loop, we found the end time
+				// Date
+				event.date = fileInput.files[0].name.substring(4,12);
+				event.date = event.date.substring(0,4)+"-"+event.date.substring(4,6)+"-"+event.date.substring(6,8);
+				
+				// Time
+				event.time = lines[i].substring(0,8); // ignore milliseconds
+				
+				// Location
+				var locStart = lines[i].indexOf("- ")+2;
+				event.room = lines[i].substring(locStart, locStart+3);
+					
+				// Tag
+				var tagStart = lines[i].indexOf("Tag:")+5;
+				event.tag = lines[i].substring(tagStart,tagStart+4);
+				
+				// Bell code
+				if (lines[i].indexOf("NURSE CALL") != -1) {
+					event.bell = "Nurse Call";
+				} else if (lines[i].indexOf("BED EMERG") != -1) {
+					event.bell = "Bed Emergency";
+				} else if (lines[i].indexOf("BED PAN") != -1) {
+					event.bell = "Bed Pan";
+				} else if (lines[i].indexOf("PAIN") != -1) {
+					event.bell = "Pain"; 
+				} else if (lines[i].indexOf("CORD OUT") != -1) {
+					event.bell = "Cord Out";
+				} else if (lines[i].indexOf("BATH") != -1) {
+					event.bell = "Bathroom";
+				} 
+				
+				// Duration. Look ahead through log to find "Clear Call" event that matches this "New Call"
+				// Todo: think about this
+				for (var j = i + 1; j < lines.length; j++) {
+					// Looking for clear calls only
+					if (lines[j].indexOf("Clear Call") != -1) {
+						// Compare room number
+						locStart = lines[j].indexOf("- ")+2;
+						locStop = locStart+3;
+						if (lines[j].substring(locStart, locStop) == event.room) {
+							// Compare tag
+							tagStart = lines[j].indexOf("Tag:")+5;
+							if (event.tag == lines[j].substring(tagStart,tagStart+4)) {
+								event.duration = timeDiff(event.time,lines[j].substring(0,8));
+								j = lines.length; // break out of loop, we found the end time
+							}
 						}
 					}
 				}
+				
+				log.push(event);
 			}
-					
-			events.push(event);
-		}
-      } // end FileReader reader.onLoad() 
+		
+		} 
 
-	  // Begin building report to show in displayArea
+	  // Build a table to show in displayArea
       var html = 
        "<table class=\"table table-striped\">"
       +"<thead>"
@@ -92,19 +93,19 @@ window.onload = function() {
       +"<tbody>";
       
 	  // Append table rows for each log event
-      for (var i=0; i<events.length; i++) {
+      for (var i=0; i<log.length; i++) {
        	html +=
 		  "<tr>"
-        + "<td>" + events[i].date + "</td>"
-        + "<td>" + events[i].time + "</td>"
-        + "<td>" + events[i].room + "</td>"
-        + "<td>" + events[i].duration + "</td>"
-        + "<td>" + events[i].bell + "</td>"
+        + "<td>" + log[i].date + "</td>"
+        + "<td>" + log[i].time + "</td>"
+        + "<td>" + log[i].room + "</td>"
+        + "<td>" + log[i].duration + "</td>"
+        + "<td>" + log[i].bell + "</td>"
 		+ "</tr>";
       }
       html += "</tbody></table>";
       html += document.getElementById("displayArea").innerHTML; // New tables are inserted above the old
-      html = "<p>Total callbells: " + events.length + "</p>" + html // Insert statistics
+      html = "<p>Total callbells: " + log.length + "</p>" + html // Insert statistics
 	  displayArea.innerHTML = html;
       //console.log(html);
 	  
