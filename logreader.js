@@ -110,7 +110,7 @@ window.onload = function() {
       }
       html += "</tbody></table>";
       html += document.getElementById("displayArea").innerHTML; // New tables are inserted above the old
-      html = "<p>Total callbells: "+log.length+"</p>" + html // Insert statistics
+      html = "<p>Total callbells: " + log.length + "</p>" + html // Insert statistics
 	  displayArea.innerHTML = html;
       //console.log(html);
     } // End callback for file loaded
@@ -121,9 +121,9 @@ window.onload = function() {
   // will not gracefully handle periods > 24h obviously
   // returns difference in seconds
   function timeDiff(start,end) {
-  		start = start.split(":");
-  		start = Number(start[0])*3600 + Number(start[1]*60) + Number(start[2]); // Convert to seconds
-      end = end.split(":");
+	  start = start.split(":");
+	  start = Number(start[0])*3600 + Number(start[1]*60) + Number(start[2]); // Convert to seconds
+	  end = end.split(":");
       end = Number(end[0])*3600 + Number(end[1]*60) + Number(end[2]); // Convert to seconds
       var result = secondsToMMSS(end - start);
       return result;
