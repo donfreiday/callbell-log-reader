@@ -1,0 +1,294 @@
+Purging file: C:\West-Com\FocusCare\log\M26-20161125.TXT
+00:01:56.475 M026 0 I Recalling call NURSE CALL for 2S - 213 Bed (NV:2ND FL HR1:10.1) Tag: 0788 CT: 1 Rpt: 0
+00:03:58.538 M026 0 C CN Received. New Call: BED EMERG for 2S - 205 Bed (NV:2ND FL HR2:5.1) Tag: 090E CT: 8 Rpt: 0
+00:03:59.772 M026 0 C CC Received. Calling Clear Call: NURSE CALL for 2S - 213 Bed (NV:2ND FL HR1:10.1) Tag: 0788 CT: 1 Rpt: 1
+00:04:25.685 M026 0 C CC Received. Calling Clear Call: BED EMERG for 2S - 205 Bed (NV:2ND FL HR2:5.1) Tag: 090E CT: 8 Rpt: 0
+00:10:10.716 M026 0 C CN Received. New Call: NURSE CALL for 2S - 220 Bed (NV:2ND FL HR1:3.1) Tag: 0789 CT: 1 Rpt: 0
+00:15:11.987 M026 0 I Recalling call NURSE CALL for 2S - 220 Bed (NV:2ND FL HR1:3.1) Tag: 0789 CT: 1 Rpt: 0
+00:20:13.483 M026 0 I Recalling call NURSE CALL for 2S - 220 Bed (NV:2ND FL HR1:3.1) Tag: 0789 CT: 1 Rpt: 1
+00:21:23.887 M026 0 C CC Received. Calling Clear Call: NURSE CALL for 2S - 220 Bed (NV:2ND FL HR1:3.1) Tag: 0789 CT: 1 Rpt: 2
+00:23:59.825 M026 0 C CN Received. New Call: NURSE CALL for 2S - 213 Bed (NV:2ND FL HR1:10.1) Tag: 078A CT: 1 Rpt: 0
+00:24:05.733 M026 0 C CN Received. New Call: BED PAN for 2S - 213 Bed (NV:2ND FL HR1:10.1) Tag: 078B CT: 15 Rpt: 0
+00:27:00.314 M026 0 C CC Received. Calling Clear Call: NURSE CALL for 2S - 213 Bed (NV:2ND FL HR1:10.1) Tag: 078A CT: 1 Rpt: 0
+00:27:00.384 M026 0 C CC Received. Calling Clear Call: BED PAN for 2S - 213 Bed (NV:2ND FL HR1:10.1) Tag: 078B CT: 15 Rpt: 0
+00:39:59.643 M026 0 C CN Received. New Call: NURSE CALL for 2S - 208 Bed (NV:2ND FL HR2:8.1) Tag: 090F CT: 1 Rpt: 0
+00:45:00.984 M026 0 I Recalling call NURSE CALL for 2S - 208 Bed (NV:2ND FL HR2:8.1) Tag: 090F CT: 1 Rpt: 0
+00:45:12.822 M026 0 C CC Received. Calling Clear Call: NURSE CALL for 2S - 208 Bed (NV:2ND FL HR2:8.1) Tag: 090F CT: 1 Rpt: 1
+00:49:31.634 M026 0 C CN Received. New Call: NURSE CALL for 2S - 217 Bed (NV:2ND FL HR1:6.1) Tag: 078C CT: 1 Rpt: 0
+00:50:07.751 M026 0 C CC Received. Calling Clear Call: NURSE CALL for 2S - 217 Bed (NV:2ND FL HR1:6.1) Tag: 078C CT: 1 Rpt: 0
+00:58:19.080 M026 0 C CN Received. New Call: BED EMERG for 2S - 220 Bed (NV:2ND FL HR1:3.1) Tag: 078D CT: 8 Rpt: 0
+00:58:37.130 M026 0 C CC Received. Calling Clear Call: BED EMERG for 2S - 220 Bed (NV:2ND FL HR1:3.1) Tag: 078D CT: 8 Rpt: 0
+01:14:08.990 M026 0 C CN Received. New Call: NURSE CALL for 2S - 203 Bed (NV:2ND FL HR2:3.1) Tag: 0910 CT: 1 Rpt: 0
+01:16:17.500 M026 0 C CC Received. Calling Clear Call: NURSE CALL for 2S - 203 Bed (NV:2ND FL HR2:3.1) Tag: 0910 CT: 1 Rpt: 0
+01:20:47.781 M026 0 C CN Received. New Call: NURSE CALL for 2S - 203 Bed (NV:2ND FL HR2:3.1) Tag: 0911 CT: 1 Rpt: 0
+01:21:36.314 M026 0 C CC Received. Calling Clear Call: NURSE CALL for 2S - 203 Bed (NV:2ND FL HR2:3.1) Tag: 0911 CT: 1 Rpt: 0
+01:45:43.876 M026 0 C CN Received. New Call: NURSE CALL for 2S - 218 Bed (NV:2ND FL HR1:5.1) Tag: 078E CT: 1 Rpt: 0
+01:50:45.483 M026 0 I Recalling call NURSE CALL for 2S - 218 Bed (NV:2ND FL HR1:5.1) Tag: 078E CT: 1 Rpt: 0
+01:54:33.855 M026 0 C CC Received. Calling Clear Call: NURSE CALL for 2S - 218 Bed (NV:2ND FL HR1:5.1) Tag: 078E CT: 1 Rpt: 1
+01:59:56.621 M026 0 C CN Received. New Call: NURSE CALL for 2S - 206 Bed (NV:2ND FL HR2:6.1) Tag: 0912 CT: 1 Rpt: 0
+02:00:31.910 M026 0 C CC Received. Calling Clear Call: NURSE CALL for 2S - 206 Bed (NV:2ND FL HR2:6.1) Tag: 0912 CT: 1 Rpt: 0
+02:04:42.019 M026 0 C CN Received. New Call: NURSE CALL for 2S - 221 Bed (NV:2ND FL HR1:2.1) Tag: 078F CT: 1 Rpt: 0
+02:05:50.072 M026 0 C CC Received. Calling Clear Call: NURSE CALL for 2S - 221 Bed (NV:2ND FL HR1:2.1) Tag: 078F CT: 1 Rpt: 0
+02:19:12.837 M026 0 C CN Received. New Call: NURSE CALL for 2S - 218 Bed (NV:2ND FL HR1:5.1) Tag: 0790 CT: 1 Rpt: 0
+02:22:08.607 M026 0 C CC Received. Calling Clear Call: NURSE CALL for 2S - 218 Bed (NV:2ND FL HR1:5.1) Tag: 0790 CT: 1 Rpt: 0
+03:25:41.060 M026 0 C CN Received. New Call: NURSE CALL for 2S - 203 Bed (NV:2ND FL HR2:3.1) Tag: 0913 CT: 1 Rpt: 0
+03:26:57.966 M026 0 C CC Received. Calling Clear Call: NURSE CALL for 2S - 203 Bed (NV:2ND FL HR2:3.1) Tag: 0913 CT: 1 Rpt: 0
+03:41:22.451 M026 0 C CN Received. New Call: NURSE CALL for 2S - 220 Bed (NV:2ND FL HR1:3.1) Tag: 0791 CT: 1 Rpt: 0
+03:42:18.306 M026 0 C CC Received. Calling Clear Call: NURSE CALL for 2S - 220 Bed (NV:2ND FL HR1:3.1) Tag: 0791 CT: 1 Rpt: 0
+03:42:49.525 M026 0 C CN Received. New Call: BED EMERG for 2S - 220 Bed (NV:2ND FL HR1:3.1) Tag: 0792 CT: 8 Rpt: 0
+03:42:59.574 M026 0 C CC Received. Calling Clear Call: BED EMERG for 2S - 220 Bed (NV:2ND FL HR1:3.1) Tag: 0792 CT: 8 Rpt: 0
+03:51:32.950 M026 0 C CN Received. New Call: NURSE CALL for 2S - 219 Bed - Door (NV:2ND FL HR1:4.1) Tag: 0793 CT: 1 Rpt: 0
+03:53:07.343 M026 0 C CC Received. Calling Clear Call: NURSE CALL for 2S - 219 Bed - Door (NV:2ND FL HR1:4.1) Tag: 0793 CT: 1 Rpt: 0
+04:15:47.765 M026 0 C CN Received. New Call: NURSE CALL for 2S - 218 Bed (NV:2ND FL HR1:5.1) Tag: 0794 CT: 1 Rpt: 0
+04:16:46.175 M026 0 C CC Received. Calling Clear Call: NURSE CALL for 2S - 218 Bed (NV:2ND FL HR1:5.1) Tag: 0794 CT: 1 Rpt: 0
+06:14:21.550 M026 0 C CN Received. New Call: NURSE CALL for 2S - 208 Bed (NV:2ND FL HR2:8.1) Tag: 0914 CT: 1 Rpt: 0
+06:16:49.650 M026 0 C CC Received. Calling Clear Call: NURSE CALL for 2S - 208 Bed (NV:2ND FL HR2:8.1) Tag: 0914 CT: 1 Rpt: 0
+06:53:14.947 M026 0 C CN Received. New Call: PAIN for 2S - 206 Bed (NV:2ND FL HR2:6.1) Tag: 0915 CT: 16 Rpt: 0
+06:53:28.918 M026 0 C CN Received. New Call: NURSE CALL for 2S - 206 Bed (NV:2ND FL HR2:6.1) Tag: 0916 CT: 1 Rpt: 0
+06:53:56.487 M026 0 C CC Received. Calling Clear Call: NURSE CALL for 2S - 206 Bed (NV:2ND FL HR2:6.1) Tag: 0916 CT: 1 Rpt: 0
+06:53:56.549 M026 0 C CC Received. Calling Clear Call: PAIN for 2S - 206 Bed (NV:2ND FL HR2:6.1) Tag: 0915 CT: 16 Rpt: 0
+07:09:27.971 M026 0 C CN Received. New Call: PAIN for 2S - 206 Bed (NV:2ND FL HR2:6.1) Tag: 0917 CT: 16 Rpt: 0
+07:09:33.309 M026 0 C CN Received. New Call: BED PAN for 2S - 206 Bed (NV:2ND FL HR2:6.1) Tag: 0918 CT: 15 Rpt: 0
+07:10:23.569 M026 0 C CC Received. Calling Clear Call: BED PAN for 2S - 206 Bed (NV:2ND FL HR2:6.1) Tag: 0918 CT: 15 Rpt: 0
+07:10:23.624 M026 0 C CC Received. Calling Clear Call: PAIN for 2S - 206 Bed (NV:2ND FL HR2:6.1) Tag: 0917 CT: 16 Rpt: 0
+07:17:34.584 M026 0 C CN Received. New Call: NURSE CALL for 2S - 209 Bed (NV:2ND FL HR2:9.1) Tag: 0919 CT: 1 Rpt: 0
+07:20:46.505 M026 0 C CN Received. New Call: NURSE CALL for 2S - 203 Bed (NV:2ND FL HR2:3.1) Tag: 091A CT: 1 Rpt: 0
+07:22:33.120 M026 0 C CC Received. Calling Clear Call: NURSE CALL for 2S - 203 Bed (NV:2ND FL HR2:3.1) Tag: 091A CT: 1 Rpt: 0
+07:22:35.980 M026 0 I Recalling call NURSE CALL for 2S - 209 Bed (NV:2ND FL HR2:9.1) Tag: 0919 CT: 1 Rpt: 0
+07:26:40.856 M026 0 C CN Received. New Call: NURSE CALL for 2S - 203 Bed (NV:2ND FL HR2:3.1) Tag: 091B CT: 1 Rpt: 0
+07:27:37.476 M026 0 I Recalling call NURSE CALL for 2S - 209 Bed (NV:2ND FL HR2:9.1) Tag: 0919 CT: 1 Rpt: 1
+07:31:41.985 M026 0 I Recalling call NURSE CALL for 2S - 203 Bed (NV:2ND FL HR2:3.1) Tag: 091B CT: 1 Rpt: 0
+07:32:38.980 M026 0 I Recalling call NURSE CALL for 2S - 209 Bed (NV:2ND FL HR2:9.1) Tag: 0919 CT: 1 Rpt: 2
+07:34:17.046 M026 0 C CC Received. Calling Clear Call: NURSE CALL for 2S - 203 Bed (NV:2ND FL HR2:3.1) Tag: 091B CT: 1 Rpt: 1
+07:37:40.477 M026 0 I Recalling call NURSE CALL for 2S - 209 Bed (NV:2ND FL HR2:9.1) Tag: 0919 CT: 1 Rpt: 3
+07:38:46.927 M026 0 C CN Received. New Call: BED EMERG for 2S - 203 Bed (NV:2ND FL HR2:3.1) Tag: 091C CT: 8 Rpt: 0
+07:38:49.427 M026 0 C CC Received. Calling Clear Call: BED EMERG for 2S - 203 Bed (NV:2ND FL HR2:3.1) Tag: 091C CT: 8 Rpt: 0
+07:41:09.001 M026 0 C CC Received. Calling Clear Call: NURSE CALL for 2S - 209 Bed (NV:2ND FL HR2:9.1) Tag: 0919 CT: 1 Rpt: 4
+07:44:44.673 M026 0 C CN Received. New Call: NURSE CALL for 2S - 206 Bed (NV:2ND FL HR2:6.1) Tag: 091D CT: 1 Rpt: 0
+07:48:15.598 M026 0 C CN Received. New Call: NURSE CALL for 2S - 203 Bed (NV:2ND FL HR2:3.1) Tag: 091E CT: 1 Rpt: 0
+07:49:46.475 M026 0 I Recalling call NURSE CALL for 2S - 206 Bed (NV:2ND FL HR2:6.1) Tag: 091D CT: 1 Rpt: 0
+07:53:16.985 M026 0 I Recalling call NURSE CALL for 2S - 203 Bed (NV:2ND FL HR2:3.1) Tag: 091E CT: 1 Rpt: 0
+07:54:47.987 M026 0 I Recalling call NURSE CALL for 2S - 206 Bed (NV:2ND FL HR2:6.1) Tag: 091D CT: 1 Rpt: 1
+07:58:18.481 M026 0 I Recalling call NURSE CALL for 2S - 203 Bed (NV:2ND FL HR2:3.1) Tag: 091E CT: 1 Rpt: 1
+07:59:26.041 M026 0 C CN Received. New Call: BED EMERG for 2S - 220 Bed (NV:2ND FL HR1:3.1) Tag: 0795 CT: 8 Rpt: 0
+07:59:43.029 M026 0 C CC Received. Calling Clear Call: BED EMERG for 2S - 220 Bed (NV:2ND FL HR1:3.1) Tag: 0795 CT: 8 Rpt: 0
+07:59:49.483 M026 0 I Recalling call NURSE CALL for 2S - 206 Bed (NV:2ND FL HR2:6.1) Tag: 091D CT: 1 Rpt: 2
+08:01:03.662 M026 0 C CN Received. New Call: CORD OUT for 2S - 220 Bed (NV:2ND FL HR1:3.1) Tag: 0796 CT: 12 Rpt: 0
+08:01:57.797 M026 0 C CN Received. New Call: NURSE CALL for 2S - 214 Bed (NV:2ND FL HR1:9.1) Tag: 0797 CT: 1 Rpt: 0
+08:03:19.978 M026 0 I Recalling call NURSE CALL for 2S - 203 Bed (NV:2ND FL HR2:3.1) Tag: 091E CT: 1 Rpt: 2
+08:03:28.784 M026 0 C CN Received. New Call: NURSE CALL for 2S - 217 Bed (NV:2ND FL HR1:6.1) Tag: 0798 CT: 1 Rpt: 0
+08:04:50.972 M026 0 I Recalling call NURSE CALL for 2S - 206 Bed (NV:2ND FL HR2:6.1) Tag: 091D CT: 1 Rpt: 3
+08:06:04.979 M026 0 I Recalling call CORD OUT for 2S - 220 Bed (NV:2ND FL HR1:3.1) Tag: 0796 CT: 12 Rpt: 0
+08:06:05.940 M026 0 C CC Received. Calling Clear Call: NURSE CALL for 2S - 203 Bed (NV:2ND FL HR2:3.1) Tag: 091E CT: 1 Rpt: 3
+08:06:30.359 M026 0 C CC Received. Calling Clear Call: NURSE CALL for 2S - 217 Bed (NV:2ND FL HR1:6.1) Tag: 0798 CT: 1 Rpt: 0
+08:06:59.473 M026 0 I Recalling call NURSE CALL for 2S - 214 Bed (NV:2ND FL HR1:9.1) Tag: 0797 CT: 1 Rpt: 0
+08:09:52.476 M026 0 I Recalling call NURSE CALL for 2S - 206 Bed (NV:2ND FL HR2:6.1) Tag: 091D CT: 1 Rpt: 4
+08:11:06.475 M026 0 I Recalling call CORD OUT for 2S - 220 Bed (NV:2ND FL HR1:3.1) Tag: 0796 CT: 12 Rpt: 1
+08:11:41.732 M026 0 C CC Received. Calling Clear Call: NURSE CALL for 2S - 206 Bed (NV:2ND FL HR2:6.1) Tag: 091D CT: 1 Rpt: 5
+08:12:00.986 M026 0 I Recalling call NURSE CALL for 2S - 214 Bed (NV:2ND FL HR1:9.1) Tag: 0797 CT: 1 Rpt: 1
+08:13:46.381 M026 0 C CC Received. Calling Clear Call: NURSE CALL for 2S - 214 Bed (NV:2ND FL HR1:9.1) Tag: 0797 CT: 1 Rpt: 2
+08:13:50.679 M026 0 C CN Received. New Call: BED EMERG for 2S - 220 Bed (NV:2ND FL HR1:3.1) Tag: 0799 CT: 8 Rpt: 0
+08:14:26.296 M026 0 C CC Received. Calling Clear Call: BED EMERG for 2S - 220 Bed (NV:2ND FL HR1:3.1) Tag: 0799 CT: 8 Rpt: 0
+08:15:59.041 M026 0 C CN Received. New Call: BED EMERG for 2S - 202 Bed (NV:2ND FL HR2:2.1) Tag: 091F CT: 8 Rpt: 0
+08:16:00.886 M026 0 C CC Received. Calling Clear Call: BED EMERG for 2S - 202 Bed (NV:2ND FL HR2:2.1) Tag: 091F CT: 8 Rpt: 0
+08:16:05.950 M026 0 C CN Received. New Call: BED EMERG for 2S - 202 Bed (NV:2ND FL HR2:2.1) Tag: 0920 CT: 8 Rpt: 0
+08:16:07.975 M026 0 I Recalling call CORD OUT for 2S - 220 Bed (NV:2ND FL HR1:3.1) Tag: 0796 CT: 12 Rpt: 2
+08:16:11.014 M026 0 C CN Received. New Call: STAFF EMER for 2S - 202 Bed (NV:2ND FL HR2:2.1) Tag: 0921 CT: 7 Rpt: 0
+08:16:14.703 M026 0 C CC Received. Calling Clear Call: BED EMERG for 2S - 202 Bed (NV:2ND FL HR2:2.1) Tag: 0920 CT: 8 Rpt: 0
+08:17:01.892 M026 0 C CC Received. Calling Clear Call: CORD OUT for 2S - 220 Bed (NV:2ND FL HR1:3.1) Tag: 0796 CT: 12 Rpt: 3
+08:17:03.251 M026 0 C CC Received. Calling Clear Call: STAFF EMER for 2S - 202 Bed (NV:2ND FL HR2:2.1) Tag: 0921 CT: 7 Rpt: 0
+08:17:06.423 M026 0 C CC Received. No such call NV:2ND FL HR2:2.1 Tag: 0921
+08:26:25.611 M026 0 C CN Received. New Call: NURSE CALL for 2S - 214 Bed (NV:2ND FL HR1:9.1) Tag: 079A CT: 1 Rpt: 0
+08:27:19.583 M026 0 C CC Received. Calling Clear Call: NURSE CALL for 2S - 214 Bed (NV:2ND FL HR1:9.1) Tag: 079A CT: 1 Rpt: 0
+08:33:10.348 M026 0 C CN Received. New Call: BED EMERG for 2S - 220 Bed (NV:2ND FL HR1:3.1) Tag: 079B CT: 8 Rpt: 0
+08:33:42.003 M026 0 C CC Received. Calling Clear Call: BED EMERG for 2S - 220 Bed (NV:2ND FL HR1:3.1) Tag: 079B CT: 8 Rpt: 0
+08:36:27.847 M026 0 C CN Received. New Call: NURSE CALL for 2S - 206 Bed (NV:2ND FL HR2:6.1) Tag: 0922 CT: 1 Rpt: 0
+08:37:07.042 M026 0 C CN Received. New Call: NURSE CALL for 2S - 203 Bed (NV:2ND FL HR2:3.1) Tag: 0923 CT: 1 Rpt: 0
+08:37:31.641 M026 0 C CC Received. Calling Clear Call: NURSE CALL for 2S - 206 Bed (NV:2ND FL HR2:6.1) Tag: 0922 CT: 1 Rpt: 0
+08:41:37.064 M026 0 C CC Received. Calling Clear Call: NURSE CALL for 2S - 203 Bed (NV:2ND FL HR2:3.1) Tag: 0923 CT: 1 Rpt: 0
+08:48:40.345 M026 0 C CN Received. New Call: NURSE CALL for 2S - 203 Bed (NV:2ND FL HR2:3.1) Tag: 0924 CT: 1 Rpt: 0
+08:51:01.069 M026 0 C CC Received. Calling Clear Call: NURSE CALL for 2S - 203 Bed (NV:2ND FL HR2:3.1) Tag: 0924 CT: 1 Rpt: 0
+09:20:32.334 M026 0 C CN Received. New Call: BED EMERG for 2S - 220 Bed (NV:2ND FL HR1:3.1) Tag: 079C CT: 8 Rpt: 0
+09:21:49.420 M026 0 C CC Received. Calling Clear Call: BED EMERG for 2S - 220 Bed (NV:2ND FL HR1:3.1) Tag: 079C CT: 8 Rpt: 0
+09:21:56.045 M026 0 C CN Received. New Call: BED EMERG for 2S - 220 Bed (NV:2ND FL HR1:3.1) Tag: 079D CT: 8 Rpt: 0
+09:21:58.250 M026 0 C CC Received. Calling Clear Call: BED EMERG for 2S - 220 Bed (NV:2ND FL HR1:3.1) Tag: 079D CT: 8 Rpt: 0
+09:22:19.312 M026 0 C CN Received. New Call: BED EMERG for 2S - 206 Bed (NV:2ND FL HR2:6.1) Tag: 0925 CT: 8 Rpt: 0
+09:22:23.641 M026 0 C CC Received. Calling Clear Call: BED EMERG for 2S - 206 Bed (NV:2ND FL HR2:6.1) Tag: 0925 CT: 8 Rpt: 0
+09:30:15.719 M026 0 C CN Received. New Call: BED EMERG for 2S - 220 Bed (NV:2ND FL HR1:3.1) Tag: 079E CT: 8 Rpt: 0
+09:30:38.294 M026 0 C CC Received. Calling Clear Call: BED EMERG for 2S - 220 Bed (NV:2ND FL HR1:3.1) Tag: 079E CT: 8 Rpt: 0
+09:31:15.466 M026 0 C CN Received. New Call: BED EMERG for 2S - 220 Bed (NV:2ND FL HR1:3.1) Tag: 079F CT: 8 Rpt: 0
+09:31:26.508 M026 0 C CC Received. Calling Clear Call: BED EMERG for 2S - 220 Bed (NV:2ND FL HR1:3.1) Tag: 079F CT: 8 Rpt: 0
+09:49:37.024 M026 0 C CN Received. New Call: NURSE CALL for 2S - 212 Bed (NV:2ND FL HR1:11.1) Tag: 07A0 CT: 1 Rpt: 0
+09:52:44.334 M026 0 C CN Received. New Call: BED EMERG for 2S - 220 Bed (NV:2ND FL HR1:3.1) Tag: 07A1 CT: 8 Rpt: 0
+09:52:49.476 M026 0 C CC Received. Calling Clear Call: BED EMERG for 2S - 220 Bed (NV:2ND FL HR1:3.1) Tag: 07A1 CT: 8 Rpt: 0
+09:54:38.482 M026 0 I Recalling call NURSE CALL for 2S - 212 Bed (NV:2ND FL HR1:11.1) Tag: 07A0 CT: 1 Rpt: 0
+09:55:40.556 M026 0 C CN Received. New Call: BED EMERG for 2S - 220 Bed (NV:2ND FL HR1:3.1) Tag: 07A2 CT: 8 Rpt: 0
+09:55:42.338 M026 0 C CC Received. Calling Clear Call: BED EMERG for 2S - 220 Bed (NV:2ND FL HR1:3.1) Tag: 07A2 CT: 8 Rpt: 0
+09:56:08.156 M026 0 C CN Received. New Call: NURSE CALL for 2S - 220 Bed (NV:2ND FL HR1:3.1) Tag: 07A3 CT: 1 Rpt: 0
+09:56:54.196 M026 0 C CN Received. New Call: BED EMERG for 2S - 220 Bed (NV:2ND FL HR1:3.1) Tag: 07A4 CT: 8 Rpt: 0
+09:58:00.990 M026 0 C CC Received. Calling Clear Call: NURSE CALL for 2S - 212 Bed (NV:2ND FL HR1:11.1) Tag: 07A0 CT: 1 Rpt: 1
+09:58:46.624 M026 0 C CC Received. Calling Clear Call: BED EMERG for 2S - 220 Bed (NV:2ND FL HR1:3.1) Tag: 07A4 CT: 8 Rpt: 0
+10:01:09.980 M026 0 I Recalling call NURSE CALL for 2S - 220 Bed (NV:2ND FL HR1:3.1) Tag: 07A3 CT: 1 Rpt: 0
+10:06:11.476 M026 0 I Recalling call NURSE CALL for 2S - 220 Bed (NV:2ND FL HR1:3.1) Tag: 07A3 CT: 1 Rpt: 1
+10:05:59.500 M026 0 I Windows Time has changed!
+10:07:11.874 M026 0 C CC Received. Calling Clear Call: NURSE CALL for 2S - 220 Bed (NV:2ND FL HR1:3.1) Tag: 07A3 CT: 1 Rpt: 2
+10:19:31.561 M026 0 C CN Received. New Call: NURSE CALL for 2S - 217 Bed (NV:2ND FL HR1:6.1) Tag: 07A5 CT: 1 Rpt: 0
+10:21:13.496 M026 0 C CC Received. Calling Clear Call: NURSE CALL for 2S - 217 Bed (NV:2ND FL HR1:6.1) Tag: 07A5 CT: 1 Rpt: 0
+10:51:00.246 M026 0 C CN Received. New Call: NURSE CALL for 2S - 219 Bed - Door (NV:2ND FL HR1:4.1) Tag: 07A6 CT: 1 Rpt: 0
+10:56:01.375 M026 0 I Recalling call NURSE CALL for 2S - 219 Bed - Door (NV:2ND FL HR1:4.1) Tag: 07A6 CT: 1 Rpt: 0
+11:01:02.872 M026 0 I Recalling call NURSE CALL for 2S - 219 Bed - Door (NV:2ND FL HR1:4.1) Tag: 07A6 CT: 1 Rpt: 1
+11:01:42.786 M026 0 C CC Received. Calling Clear Call: NURSE CALL for 2S - 219 Bed - Door (NV:2ND FL HR1:4.1) Tag: 07A6 CT: 1 Rpt: 2
+11:18:19.614 M026 0 C CN Received. New Call: NURSE CALL for 2S - 221 Bed (NV:2ND FL HR1:2.1) Tag: 07A7 CT: 1 Rpt: 0
+11:23:21.361 M026 0 I Recalling call NURSE CALL for 2S - 221 Bed (NV:2ND FL HR1:2.1) Tag: 07A7 CT: 1 Rpt: 0
+11:23:41.677 M026 0 C CN Received. New Call: NURSE CALL for 2S - 203 Bed (NV:2ND FL HR2:3.1) Tag: 0926 CT: 1 Rpt: 0
+11:25:06.280 M026 0 C CC Received. Calling Clear Call: NURSE CALL for 2S - 203 Bed (NV:2ND FL HR2:3.1) Tag: 0926 CT: 1 Rpt: 0
+11:28:22.865 M026 0 I Recalling call NURSE CALL for 2S - 221 Bed (NV:2ND FL HR1:2.1) Tag: 07A7 CT: 1 Rpt: 1
+11:31:46.858 M026 0 C CC Received. Calling Clear Call: NURSE CALL for 2S - 221 Bed (NV:2ND FL HR1:2.1) Tag: 07A7 CT: 1 Rpt: 2
+11:54:06.577 M026 0 C CN Received. New Call: NURSE CALL for 2S - 213 Bed (NV:2ND FL HR1:10.1) Tag: 07A8 CT: 1 Rpt: 0
+11:59:08.371 M026 0 I Recalling call NURSE CALL for 2S - 213 Bed (NV:2ND FL HR1:10.1) Tag: 07A8 CT: 1 Rpt: 0
+11:59:38.486 M026 0 C CC Received. Calling Clear Call: NURSE CALL for 2S - 213 Bed (NV:2ND FL HR1:10.1) Tag: 07A8 CT: 1 Rpt: 1
+12:30:33.111 M026 0 C CN Received. New Call: NURSE CALL for 2S - 213 Bed (NV:2ND FL HR1:10.1) Tag: 07A9 CT: 1 Rpt: 0
+12:35:34.366 M026 0 I Recalling call NURSE CALL for 2S - 213 Bed (NV:2ND FL HR1:10.1) Tag: 07A9 CT: 1 Rpt: 0
+12:40:35.862 M026 0 I Recalling call NURSE CALL for 2S - 213 Bed (NV:2ND FL HR1:10.1) Tag: 07A9 CT: 1 Rpt: 1
+12:42:24.477 M026 0 C CC Received. Calling Clear Call: NURSE CALL for 2S - 213 Bed (NV:2ND FL HR1:10.1) Tag: 07A9 CT: 1 Rpt: 2
+12:48:37.961 M026 0 C CN Received. New Call: NURSE CALL for 2S - 209 Bed (NV:2ND FL HR2:9.1) Tag: 0927 CT: 1 Rpt: 0
+12:53:39.365 M026 0 I Recalling call NURSE CALL for 2S - 209 Bed (NV:2ND FL HR2:9.1) Tag: 0927 CT: 1 Rpt: 0
+12:57:15.102 M026 0 C CC Received. Calling Clear Call: NURSE CALL for 2S - 209 Bed (NV:2ND FL HR2:9.1) Tag: 0927 CT: 1 Rpt: 1
+13:10:35.727 M026 0 C CN Received. New Call: BED EMERG for 2S - 220 Bed (NV:2ND FL HR1:3.1) Tag: 07AA CT: 8 Rpt: 0
+13:11:11.977 M026 0 C CC Received. Calling Clear Call: BED EMERG for 2S - 220 Bed (NV:2ND FL HR1:3.1) Tag: 07AA CT: 8 Rpt: 0
+13:22:00.899 M026 0 C CN Received. New Call: BED EMERG for 2S - 219 Bed - Door (NV:2ND FL HR1:4.1) Tag: 07AB CT: 8 Rpt: 0
+13:25:33.175 M026 0 C CC Received. Calling Clear Call: BED EMERG for 2S - 219 Bed - Door (NV:2ND FL HR1:4.1) Tag: 07AB CT: 8 Rpt: 0
+13:27:00.253 M026 0 C CN Received. New Call: BED EMERG for 2S - 219 Bed - Door (NV:2ND FL HR1:4.1) Tag: 07AC CT: 8 Rpt: 0
+13:27:27.001 M026 0 C CC Received. Calling Clear Call: BED EMERG for 2S - 219 Bed - Door (NV:2ND FL HR1:4.1) Tag: 07AC CT: 8 Rpt: 0
+13:28:53.439 M026 0 C CN Received. New Call: NURSE CALL for 2S - 203 Bed (NV:2ND FL HR2:3.1) Tag: 0928 CT: 1 Rpt: 0
+13:31:55.241 M026 0 C CC Received. Calling Clear Call: NURSE CALL for 2S - 203 Bed (NV:2ND FL HR2:3.1) Tag: 0928 CT: 1 Rpt: 0
+13:32:34.116 M026 0 C CN Received. New Call: BED EMERG for 2S - 203 Bed (NV:2ND FL HR2:3.1) Tag: 0929 CT: 8 Rpt: 0
+13:32:42.149 M026 0 C CC Received. Calling Clear Call: BED EMERG for 2S - 203 Bed (NV:2ND FL HR2:3.1) Tag: 0929 CT: 8 Rpt: 0
+13:39:04.680 M026 0 C CN Received. New Call: BED EMERG for 2S - 219 Bed - Door (NV:2ND FL HR1:4.1) Tag: 07AD CT: 8 Rpt: 0
+13:39:04.978 M026 0 C CC Received. Calling Clear Call: BED EMERG for 2S - 219 Bed - Door (NV:2ND FL HR1:4.1) Tag: 07AD CT: 8 Rpt: 0
+13:40:06.158 M026 0 C CN Received. New Call: BED EMERG for 2S - 219 Bed - Door (NV:2ND FL HR1:4.1) Tag: 07AE CT: 8 Rpt: 0
+13:40:33.085 M026 0 C CC Received. Calling Clear Call: BED EMERG for 2S - 219 Bed - Door (NV:2ND FL HR1:4.1) Tag: 07AE CT: 8 Rpt: 0
+13:43:51.742 M026 0 C CN Received. New Call: BED EMERG for 2S - 219 Bed - Door (NV:2ND FL HR1:4.1) Tag: 07AF CT: 8 Rpt: 0
+13:43:51.993 M026 0 C CC Received. Calling Clear Call: BED EMERG for 2S - 219 Bed - Door (NV:2ND FL HR1:4.1) Tag: 07AF CT: 8 Rpt: 0
+13:45:41.415 M026 0 C CN Received. New Call: NURSE CALL for 2S - 220 Bed (NV:2ND FL HR1:3.1) Tag: 07B0 CT: 1 Rpt: 0
+13:48:35.550 M026 0 C CN Received. New Call: BED EMERG for 2S - 219 Bed - Door (NV:2ND FL HR1:4.1) Tag: 07B1 CT: 8 Rpt: 0
+13:48:44.787 M026 0 C CC Received. Calling Clear Call: BED EMERG for 2S - 219 Bed - Door (NV:2ND FL HR1:4.1) Tag: 07B1 CT: 8 Rpt: 0
+13:50:42.873 M026 0 I Recalling call NURSE CALL for 2S - 220 Bed (NV:2ND FL HR1:3.1) Tag: 07B0 CT: 1 Rpt: 0
+13:53:44.080 M026 0 C CC Received. Calling Clear Call: NURSE CALL for 2S - 220 Bed (NV:2ND FL HR1:3.1) Tag: 07B0 CT: 1 Rpt: 1
+14:06:30.001 M026 0 C CN Received. New Call: BED EMERG for 2S - 219 Bed - Door (NV:2ND FL HR1:4.1) Tag: 07B2 CT: 8 Rpt: 0
+14:06:36.339 M026 0 C CC Received. Calling Clear Call: BED EMERG for 2S - 219 Bed - Door (NV:2ND FL HR1:4.1) Tag: 07B2 CT: 8 Rpt: 0
+14:13:25.933 M026 0 C CN Received. New Call: NURSE CALL for 2S - 203 Bed (NV:2ND FL HR2:3.1) Tag: 092A CT: 1 Rpt: 0
+14:16:59.272 M026 0 C CC Received. Calling Clear Call: NURSE CALL for 2S - 203 Bed (NV:2ND FL HR2:3.1) Tag: 092A CT: 1 Rpt: 0
+14:22:06.381 M026 0 C CN Received. New Call: NURSE CALL for 2S - 203 Bed (NV:2ND FL HR2:3.1) Tag: 092B CT: 1 Rpt: 0
+14:27:08.363 M026 0 I Recalling call NURSE CALL for 2S - 203 Bed (NV:2ND FL HR2:3.1) Tag: 092B CT: 1 Rpt: 0
+14:28:18.306 M026 0 C CC Received. Calling Clear Call: NURSE CALL for 2S - 203 Bed (NV:2ND FL HR2:3.1) Tag: 092B CT: 1 Rpt: 1
+14:31:08.087 M026 0 C CN Received. New Call: NURSE CALL for 2S - 213 Bed (NV:2ND FL HR1:10.1) Tag: 07B3 CT: 1 Rpt: 0
+14:31:11.291 M026 0 C CN Received. New Call: NURSE CALL for 2S - 209 Bed (NV:2ND FL HR2:9.1) Tag: 092C CT: 1 Rpt: 0
+14:35:51.870 M026 0 C CC Received. Calling Clear Call: NURSE CALL for 2S - 213 Bed (NV:2ND FL HR1:10.1) Tag: 07B3 CT: 1 Rpt: 0
+14:36:12.374 M026 0 I Recalling call NURSE CALL for 2S - 209 Bed (NV:2ND FL HR2:9.1) Tag: 092C CT: 1 Rpt: 0
+14:41:13.871 M026 0 I Recalling call NURSE CALL for 2S - 209 Bed (NV:2ND FL HR2:9.1) Tag: 092C CT: 1 Rpt: 1
+14:41:58.567 M026 0 C CC Received. Calling Clear Call: NURSE CALL for 2S - 209 Bed (NV:2ND FL HR2:9.1) Tag: 092C CT: 1 Rpt: 2
+14:55:39.958 M026 0 C CN Received. New Call: NURSE CALL for 2S - 217 Bed (NV:2ND FL HR1:6.1) Tag: 07B4 CT: 1 Rpt: 0
+15:00:41.861 M026 0 I Recalling call NURSE CALL for 2S - 217 Bed (NV:2ND FL HR1:6.1) Tag: 07B4 CT: 1 Rpt: 0
+15:05:43.373 M026 0 I Recalling call NURSE CALL for 2S - 217 Bed (NV:2ND FL HR1:6.1) Tag: 07B4 CT: 1 Rpt: 1
+15:10:44.861 M026 0 I Recalling call NURSE CALL for 2S - 217 Bed (NV:2ND FL HR1:6.1) Tag: 07B4 CT: 1 Rpt: 2
+15:15:46.366 M026 0 I Recalling call NURSE CALL for 2S - 217 Bed (NV:2ND FL HR1:6.1) Tag: 07B4 CT: 1 Rpt: 3
+15:15:57.993 M026 0 C CN Received. New Call: NURSE CALL for 2S - 218 Bed (NV:2ND FL HR1:5.1) Tag: 07B5 CT: 1 Rpt: 0
+15:17:43.044 M026 0 C CC Received. Calling Clear Call: NURSE CALL for 2S - 217 Bed (NV:2ND FL HR1:6.1) Tag: 07B4 CT: 1 Rpt: 4
+15:20:59.864 M026 0 I Recalling call NURSE CALL for 2S - 218 Bed (NV:2ND FL HR1:5.1) Tag: 07B5 CT: 1 Rpt: 0
+15:22:59.887 M026 0 C CC Received. Calling Clear Call: NURSE CALL for 2S - 218 Bed (NV:2ND FL HR1:5.1) Tag: 07B5 CT: 1 Rpt: 1
+15:32:02.090 M026 0 C CN Received. New Call: NURSE CALL for 2S - 203 Bed (NV:2ND FL HR2:3.1) Tag: 092D CT: 1 Rpt: 0
+15:37:03.861 M026 0 I Recalling call NURSE CALL for 2S - 203 Bed (NV:2ND FL HR2:3.1) Tag: 092D CT: 1 Rpt: 0
+15:38:54.117 M026 0 C CN Received. New Call: NURSE CALL for 2S - 208 Bed (NV:2ND FL HR2:8.1) Tag: 092E CT: 1 Rpt: 0
+15:39:28.874 M026 0 C CC Received. Calling Clear Call: NURSE CALL for 2S - 208 Bed (NV:2ND FL HR2:8.1) Tag: 092E CT: 1 Rpt: 0
+15:42:05.373 M026 0 I Recalling call NURSE CALL for 2S - 203 Bed (NV:2ND FL HR2:3.1) Tag: 092D CT: 1 Rpt: 1
+15:42:54.664 M026 0 C CC Received. Calling Clear Call: NURSE CALL for 2S - 203 Bed (NV:2ND FL HR2:3.1) Tag: 092D CT: 1 Rpt: 2
+15:44:14.539 M026 0 C CN Received. New Call: NURSE CALL for 2S - 212 Bed (NV:2ND FL HR1:11.1) Tag: 07B6 CT: 1 Rpt: 0
+15:44:57.110 M026 0 C CN Received. New Call: NURSE CALL for 2S - 203 Bed (NV:2ND FL HR2:3.1) Tag: 092F CT: 1 Rpt: 0
+15:47:07.010 M026 0 C CC Received. Calling Clear Call: NURSE CALL for 2S - 203 Bed (NV:2ND FL HR2:3.1) Tag: 092F CT: 1 Rpt: 0
+15:47:29.718 M026 0 C CN Received. New Call: NURSE CALL for 2S - 209 Bed (NV:2ND FL HR2:9.1) Tag: 0930 CT: 1 Rpt: 0
+15:49:16.364 M026 0 I Recalling call NURSE CALL for 2S - 212 Bed (NV:2ND FL HR1:11.1) Tag: 07B6 CT: 1 Rpt: 0
+15:52:24.416 M026 0 C CN Received. New Call: NURSE CALL for 2S - 203 Bed (NV:2ND FL HR2:3.1) Tag: 0931 CT: 1 Rpt: 0
+15:52:29.463 M026 0 C CC Received. Calling Clear Call: NURSE CALL for 2S - 203 Bed (NV:2ND FL HR2:3.1) Tag: 0931 CT: 1 Rpt: 0
+15:52:30.871 M026 0 I Recalling call NURSE CALL for 2S - 209 Bed (NV:2ND FL HR2:9.1) Tag: 0930 CT: 1 Rpt: 0
+15:54:17.875 M026 0 I Recalling call NURSE CALL for 2S - 212 Bed (NV:2ND FL HR1:11.1) Tag: 07B6 CT: 1 Rpt: 1
+15:57:32.375 M026 0 I Recalling call NURSE CALL for 2S - 209 Bed (NV:2ND FL HR2:9.1) Tag: 0930 CT: 1 Rpt: 1
+15:59:19.364 M026 0 I Recalling call NURSE CALL for 2S - 212 Bed (NV:2ND FL HR1:11.1) Tag: 07B6 CT: 1 Rpt: 2
+15:59:20.458 M026 0 C CC Received. Calling Clear Call: NURSE CALL for 2S - 209 Bed (NV:2ND FL HR2:9.1) Tag: 0930 CT: 1 Rpt: 2
+16:00:22.626 M026 0 C CC Received. Calling Clear Call: NURSE CALL for 2S - 212 Bed (NV:2ND FL HR1:11.1) Tag: 07B6 CT: 1 Rpt: 3
+16:32:34.251 M026 0 C CN Received. New Call: NURSE CALL for 2S - 221 Bed (NV:2ND FL HR1:2.1) Tag: 07B7 CT: 1 Rpt: 0
+16:37:08.916 M026 0 C CN Received. New Call: NURSE CALL for 2S - 203 Bed (NV:2ND FL HR2:3.1) Tag: 0932 CT: 1 Rpt: 0
+16:37:35.375 M026 0 I Recalling call NURSE CALL for 2S - 221 Bed (NV:2ND FL HR1:2.1) Tag: 07B7 CT: 1 Rpt: 0
+16:42:10.374 M026 0 I Recalling call NURSE CALL for 2S - 203 Bed (NV:2ND FL HR2:3.1) Tag: 0932 CT: 1 Rpt: 0
+16:42:36.871 M026 0 I Recalling call NURSE CALL for 2S - 221 Bed (NV:2ND FL HR1:2.1) Tag: 07B7 CT: 1 Rpt: 1
+16:43:45.736 M026 0 C CC Received. Calling Clear Call: NURSE CALL for 2S - 203 Bed (NV:2ND FL HR2:3.1) Tag: 0932 CT: 1 Rpt: 1
+16:47:38.367 M026 0 I Recalling call NURSE CALL for 2S - 221 Bed (NV:2ND FL HR1:2.1) Tag: 07B7 CT: 1 Rpt: 2
+16:49:48.353 M026 0 C CN Received. New Call: BED EMERG for 2S - 216 Bed (NV:2ND FL HR1:7.1) Tag: 07B8 CT: 8 Rpt: 0
+16:49:54.785 M026 0 C CC Received. Calling Clear Call: BED EMERG for 2S - 216 Bed (NV:2ND FL HR1:7.1) Tag: 07B8 CT: 8 Rpt: 0
+16:51:56.011 M026 0 C CC Received. Calling Clear Call: NURSE CALL for 2S - 221 Bed (NV:2ND FL HR1:2.1) Tag: 07B7 CT: 1 Rpt: 3
+16:59:24.808 M026 0 C CN Received. New Call: NURSE CALL for 2S - 209 Bed (NV:2ND FL HR2:9.1) Tag: 0933 CT: 1 Rpt: 0
+17:04:26.375 M026 0 I Recalling call NURSE CALL for 2S - 209 Bed (NV:2ND FL HR2:9.1) Tag: 0933 CT: 1 Rpt: 0
+17:06:50.201 M026 0 C CN Received. New Call: NURSE CALL for 2S - 204 Bed - Door (NV:2ND FL HR2:4.1) Tag: 0934 CT: 1 Rpt: 0
+17:07:04.718 M026 0 C CC Received. Calling Clear Call: NURSE CALL for 2S - 209 Bed (NV:2ND FL HR2:9.1) Tag: 0933 CT: 1 Rpt: 1
+17:08:23.203 M026 0 C CC Received. Calling Clear Call: NURSE CALL for 2S - 204 Bed - Door (NV:2ND FL HR2:4.1) Tag: 0934 CT: 1 Rpt: 0
+17:24:58.937 M026 0 C CN Received. New Call: NURSE CALL for 2S - 203 Bed (NV:2ND FL HR2:3.1) Tag: 0935 CT: 1 Rpt: 0
+17:26:49.819 M026 0 C CN Received. New Call: NURSE CALL for 2S - 217 Bed (NV:2ND FL HR1:6.1) Tag: 07B9 CT: 1 Rpt: 0
+17:30:00.864 M026 0 I Recalling call NURSE CALL for 2S - 203 Bed (NV:2ND FL HR2:3.1) Tag: 0935 CT: 1 Rpt: 0
+17:31:51.362 M026 0 I Recalling call NURSE CALL for 2S - 217 Bed (NV:2ND FL HR1:6.1) Tag: 07B9 CT: 1 Rpt: 0
+17:33:23.465 M026 0 C CC Received. Calling Clear Call: NURSE CALL for 2S - 217 Bed (NV:2ND FL HR1:6.1) Tag: 07B9 CT: 1 Rpt: 1
+17:35:02.375 M026 0 I Recalling call NURSE CALL for 2S - 203 Bed (NV:2ND FL HR2:3.1) Tag: 0935 CT: 1 Rpt: 1
+17:35:59.856 M026 0 C CC Received. Calling Clear Call: NURSE CALL for 2S - 203 Bed (NV:2ND FL HR2:3.1) Tag: 0935 CT: 1 Rpt: 2
+17:39:59.231 M026 0 C CN Received. New Call: NURSE CALL for 2S - 206 Bed (NV:2ND FL HR2:6.1) Tag: 0936 CT: 1 Rpt: 0
+17:41:50.285 M026 0 C CC Received. Calling Clear Call: NURSE CALL for 2S - 206 Bed (NV:2ND FL HR2:6.1) Tag: 0936 CT: 1 Rpt: 0
+17:42:21.191 M026 0 C CN Received. New Call: NURSE CALL for 2S - 203 Bed (NV:2ND FL HR2:3.1) Tag: 0937 CT: 1 Rpt: 0
+17:44:40.960 M026 0 C CC Received. Calling Clear Call: NURSE CALL for 2S - 203 Bed (NV:2ND FL HR2:3.1) Tag: 0937 CT: 1 Rpt: 0
+18:27:09.601 M026 0 C CN Received. New Call: BED EMERG for 2S - 216 Bed (NV:2ND FL HR1:7.1) Tag: 07BA CT: 8 Rpt: 0
+18:27:25.167 M026 0 C CC Received. Calling Clear Call: BED EMERG for 2S - 216 Bed (NV:2ND FL HR1:7.1) Tag: 07BA CT: 8 Rpt: 0
+18:57:46.183 M026 0 C CN Received. New Call: NURSE CALL for 2S - 212 Bed (NV:2ND FL HR1:11.1) Tag: 07BB CT: 1 Rpt: 0
+18:58:39.897 M026 0 C CN Received. New Call: NURSE CALL for 2S - 203 Bed (NV:2ND FL HR2:3.1) Tag: 0938 CT: 1 Rpt: 0
+18:59:47.450 M026 0 C CN Received. New Call: BED EMERG for 2S - 215 Bed (NV:2ND FL HR1:8.1) Tag: 07BC CT: 8 Rpt: 0
+19:00:22.402 M026 0 C CC Received. Calling Clear Call: NURSE CALL for 2S - 203 Bed (NV:2ND FL HR2:3.1) Tag: 0938 CT: 1 Rpt: 0
+19:00:30.731 M026 0 C CC Received. Calling Clear Call: BED EMERG for 2S - 215 Bed (NV:2ND FL HR1:8.1) Tag: 07BC CT: 8 Rpt: 0
+19:02:47.868 M026 0 I Recalling call NURSE CALL for 2S - 212 Bed (NV:2ND FL HR1:11.1) Tag: 07BB CT: 1 Rpt: 0
+19:07:49.372 M026 0 I Recalling call NURSE CALL for 2S - 212 Bed (NV:2ND FL HR1:11.1) Tag: 07BB CT: 1 Rpt: 1
+19:12:50.868 M026 0 I Recalling call NURSE CALL for 2S - 212 Bed (NV:2ND FL HR1:11.1) Tag: 07BB CT: 1 Rpt: 2
+19:16:06.586 M026 0 C CC Received. Calling Clear Call: NURSE CALL for 2S - 212 Bed (NV:2ND FL HR1:11.1) Tag: 07BB CT: 1 Rpt: 3
+19:43:49.336 M026 0 C CN Received. New Call: NURSE CALL for 2S - 217 Bed (NV:2ND FL HR1:6.1) Tag: 07BD CT: 1 Rpt: 0
+19:48:50.865 M026 0 I Recalling call NURSE CALL for 2S - 217 Bed (NV:2ND FL HR1:6.1) Tag: 07BD CT: 1 Rpt: 0
+19:49:42.046 M026 0 C CC Received. Calling Clear Call: NURSE CALL for 2S - 217 Bed (NV:2ND FL HR1:6.1) Tag: 07BD CT: 1 Rpt: 1
+20:17:27.031 M026 0 C CN Received. New Call: NURSE CALL for 2S - 212 Bed (NV:2ND FL HR1:11.1) Tag: 07BE CT: 1 Rpt: 0
+20:22:28.864 M026 0 I Recalling call NURSE CALL for 2S - 212 Bed (NV:2ND FL HR1:11.1) Tag: 07BE CT: 1 Rpt: 0
+20:27:30.375 M026 0 I Recalling call NURSE CALL for 2S - 212 Bed (NV:2ND FL HR1:11.1) Tag: 07BE CT: 1 Rpt: 1
+20:32:31.872 M026 0 I Recalling call NURSE CALL for 2S - 212 Bed (NV:2ND FL HR1:11.1) Tag: 07BE CT: 1 Rpt: 2
+20:35:34.314 M026 0 C CN Received. New Call: BED PAN for 2S - 218 Bed (NV:2ND FL HR1:5.1) Tag: 07BF CT: 15 Rpt: 0
+20:37:22.218 M026 0 C CC Received. Calling Clear Call: BED PAN for 2S - 218 Bed (NV:2ND FL HR1:5.1) Tag: 07BF CT: 15 Rpt: 0
+20:37:33.361 M026 0 I Recalling call NURSE CALL for 2S - 212 Bed (NV:2ND FL HR1:11.1) Tag: 07BE CT: 1 Rpt: 3
+20:42:34.873 M026 0 I Recalling call NURSE CALL for 2S - 212 Bed (NV:2ND FL HR1:11.1) Tag: 07BE CT: 1 Rpt: 4
+20:45:34.220 M026 0 C CN Received. New Call: PAIN for 2S - 218 Bed (NV:2ND FL HR1:5.1) Tag: 07C0 CT: 16 Rpt: 0
+20:45:36.845 M026 0 C CN Received. New Call: BED PAN for 2S - 218 Bed (NV:2ND FL HR1:5.1) Tag: 07C1 CT: 15 Rpt: 0
+20:47:05.730 M026 0 C CC Received. Calling Clear Call: BED PAN for 2S - 218 Bed (NV:2ND FL HR1:5.1) Tag: 07C1 CT: 15 Rpt: 0
+20:47:05.777 M026 0 C CC Received. Calling Clear Call: PAIN for 2S - 218 Bed (NV:2ND FL HR1:5.1) Tag: 07C0 CT: 16 Rpt: 0
+20:47:36.361 M026 0 I Recalling call NURSE CALL for 2S - 212 Bed (NV:2ND FL HR1:11.1) Tag: 07BE CT: 1 Rpt: 5
+20:49:24.328 M026 0 C CN Received. New Call: NURSE CALL for 2S - 215 Bed (NV:2ND FL HR1:8.1) Tag: 07C2 CT: 1 Rpt: 0
+20:50:53.501 M026 0 C CC Received. Calling Clear Call: NURSE CALL for 2S - 215 Bed (NV:2ND FL HR1:8.1) Tag: 07C2 CT: 1 Rpt: 0
+20:51:31.555 M026 0 C CN Received. New Call: BED EMERG for 2S - 215 Bed (NV:2ND FL HR1:8.1) Tag: 07C3 CT: 8 Rpt: 0
+20:51:32.353 M026 0 C CC Received. Calling Clear Call: BED EMERG for 2S - 215 Bed (NV:2ND FL HR1:8.1) Tag: 07C3 CT: 8 Rpt: 0
+20:52:10.954 M026 0 C CN Received. New Call: BED EMERG for 2S - 215 Bed (NV:2ND FL HR1:8.1) Tag: 07C4 CT: 8 Rpt: 0
+20:52:17.346 M026 0 C CC Received. Calling Clear Call: BED EMERG for 2S - 215 Bed (NV:2ND FL HR1:8.1) Tag: 07C4 CT: 8 Rpt: 0
+20:52:37.866 M026 0 I Recalling call NURSE CALL for 2S - 212 Bed (NV:2ND FL HR1:11.1) Tag: 07BE CT: 1 Rpt: 6
+20:55:33.869 M026 0 C CC Received. Calling Clear Call: NURSE CALL for 2S - 212 Bed (NV:2ND FL HR1:11.1) Tag: 07BE CT: 1 Rpt: 7
+21:01:50.978 M026 0 C CN Received. New Call: BED EMERG for 2S - 216 Bed (NV:2ND FL HR1:7.1) Tag: 07C5 CT: 8 Rpt: 0
+21:01:51.659 M026 0 C CC Received. Calling Clear Call: BED EMERG for 2S - 216 Bed (NV:2ND FL HR1:7.1) Tag: 07C5 CT: 8 Rpt: 0
+21:05:00.221 M026 0 C CN Received. New Call: NURSE CALL for 2S - 203 Bed (NV:2ND FL HR2:3.1) Tag: 0939 CT: 1 Rpt: 0
+21:06:19.971 M026 0 C CC Received. Calling Clear Call: NURSE CALL for 2S - 203 Bed (NV:2ND FL HR2:3.1) Tag: 0939 CT: 1 Rpt: 0
+21:09:14.127 M026 0 C CN Received. New Call: NURSE CALL for 2S - 203 Bed (NV:2ND FL HR2:3.1) Tag: 093A CT: 1 Rpt: 0
+21:09:36.570 M026 0 C CC Received. Calling Clear Call: NURSE CALL for 2S - 203 Bed (NV:2ND FL HR2:3.1) Tag: 093A CT: 1 Rpt: 0
+21:31:23.523 M026 0 C CN Received. New Call: NURSE CALL for 2S - 215 Bed (NV:2ND FL HR1:8.1) Tag: 07C6 CT: 1 Rpt: 0
+21:32:12.908 M026 0 C CC Received. Calling Clear Call: NURSE CALL for 2S - 215 Bed (NV:2ND FL HR1:8.1) Tag: 07C6 CT: 1 Rpt: 0
+21:54:18.251 M026 0 C CN Received. New Call: NURSE CALL for 2S - 209 Bed (NV:2ND FL HR2:9.1) Tag: 093B CT: 1 Rpt: 0
+21:59:19.366 M026 0 I Recalling call NURSE CALL for 2S - 209 Bed (NV:2ND FL HR2:9.1) Tag: 093B CT: 1 Rpt: 0
+22:04:20.862 M026 0 I Recalling call NURSE CALL for 2S - 209 Bed (NV:2ND FL HR2:9.1) Tag: 093B CT: 1 Rpt: 1
+22:09:22.374 M026 0 I Recalling call NURSE CALL for 2S - 209 Bed (NV:2ND FL HR2:9.1) Tag: 093B CT: 1 Rpt: 2
+22:09:37.611 M026 0 C CC Received. Calling Clear Call: NURSE CALL for 2S - 209 Bed (NV:2ND FL HR2:9.1) Tag: 093B CT: 1 Rpt: 3
+22:21:40.017 M026 0 C CN Received. New Call: NURSE CALL for 2S - 212 Bed (NV:2ND FL HR1:11.1) Tag: 07C7 CT: 1 Rpt: 0
+22:23:54.215 M026 0 C CC Received. Calling Clear Call: NURSE CALL for 2S - 212 Bed (NV:2ND FL HR1:11.1) Tag: 07C7 CT: 1 Rpt: 0
