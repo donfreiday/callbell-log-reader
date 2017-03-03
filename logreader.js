@@ -77,7 +77,7 @@ var log = {
 					// Todo: think about this
 					for (var j = i + 1; j < lines.length; j++) {
 						// Looking for clear calls only
-						if (lines[j].indexOf("Clear Call") != -1) {
+						if (lines[j].indexOf("Clear Call") != -1 || lines[j].indexOf("Answered at :") != -1) {
 							// Compare room number
 							locStart = lines[j].indexOf("- ") + 2;
 							locStop = locStart + 3;
