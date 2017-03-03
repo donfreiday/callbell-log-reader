@@ -6,7 +6,7 @@ window.onload = function() {
 	// Process all files and add to log on fileInput element change event
     fileInput.addEventListener('change', function(e) {
 		for (var i = 0; i < fileInput.files.length; i++) {
-			console.log(readLogFile(fileInput.files[i]));
+			readLogFile(fileInput.files[i]);
 		} 
      }); // End of files processing
 	
