@@ -96,9 +96,18 @@ var log = {
 
 			} // End of line-by-line file processing
 			displayArea.innerHTML = log.toTable();
+			console.log("Average duration:" + log.averageDuration());
 		} // end reader.onload
 		reader.readAsText(file);
+	},
+	averageDuration: function() {
+		var totalDuration=0;
+		for (var i=0; i<this.calls.length; i++) {
+			totalDuration+=Number(this.calls[i].duration.split(":")[0]*60)+Number(this.calls[i].duration.split(":")[1]);
+		}
+		return secondsToMMSS(Math.ceil(totalDuration/this.calls.length));
 	}
+	
 } // end log definition
 
 window.onload = function() {
