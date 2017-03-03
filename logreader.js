@@ -1,101 +1,88 @@
 window.onload = function() {
     var fileInput = document.getElementById('fileInput');
     var displayArea = document.getElementById('displayArea');
+	var log = new Array();
 
+	// Process all files and add to log on fileInput element change event
     fileInput.addEventListener('change', function(e) {
-        var files = fileInput.files;
-		var log = new Array();
-		// Process all files
-		for (var i = 0; i < files.length; i++) {
-			var reader = new FileReader();
-			var file = files[i];
-			reader.fileName = file.name;
-			
-			// Callback after reader.readAsText(file) is done
-			reader.onload = function(e) {
-				console.log("wft");
-				var lines = reader.result.split(/[\r\n]+/g); // tolerate both Windows and Unix linebreaks
-				
-				// Process each line in the log file
-				for (var j = 0; j < lines.length; j++) {
-					// Only process New Call events
-					if (lines[j].indexOf("New Call") != -1) {
-						var event = {
-							date: "unknown",
-							room: "unknown",
-							time: "unknown",
-							duration: "unknown",
-							bell: "unknown",
-							tag: "unknown"
-						};
+		for (var i = 0; i < fileInput.files.length; i++) {
+			console.log(readLogFile(fileInput.files[i]));
+		} 
+     }); // End of files processing
+	
+	function readLogFile(file) {
+		var fileName = file.name;
+		var reader = new FileReader();
+		reader.onload = function(e) {
+			console.log("Made it here");
+			// Get result, split into an array of lines
+			var lines = reader.result.split(/[\r\n]+/g); // tolerate both Windows and Unix linebreaks
+			// Process each line in the log file
+			for (var i = 0; i < lines.length; i++) {
+				// Only process New Call events
+				if (lines[i].indexOf("New Call") != -1) {
+					var event = {
+						date: "unknown",
+						room: "unknown",
+						time: "unknown",
+						duration: "unknown",
+						bell: "unknown",
+						tag: "unknown"
+					};
 
-						// Date parsed from filename
-						//event.date = fileInput.files[0].name.substring(4, 12);
-						console.log(reader.fileName);
-						event.date = this.fileName.substring(4, 12);
-						event.date = event.date.substring(0, 4) + "-" + event.date.substring(4, 6) + "-" + event.date.substring(6, 8);
-
-						// Time
-						event.time = lines[j].substring(0, 8); // ignore milliseconds
-
-						// Location
-						var locStart = lines[j].indexOf("- ") + 2;
-						event.room = lines[j].substring(locStart, locStart + 3);
-
-						// Tag
-						var tagStart = lines[j].indexOf("Tag:") + 5;
-						event.tag = lines[j].substring(tagStart, tagStart + 4);
-
-						// Bell code
-						if (lines[j].indexOf("NURSE CALL") != -1) {
-							event.bell = "Nurse Call";
-						} else if (lines[j].indexOf("BED EMERG") != -1) {
-							event.bell = "Bed Emergency";
-						} else if (lines[j].indexOf("BED PAN") != -1) {
-							event.bell = "Bed Pan";
-						} else if (lines[j].indexOf("PAIN") != -1) {
-							event.bell = "Pain";
-						} else if (lines[j].indexOf("CORD OUT") != -1) {
-							event.bell = "Cord Out";
-						} else if (lines[j].indexOf("BATH") != -1) {
-							event.bell = "Bathroom";
-						}
-
-						// Duration. Look ahead through log to find "Clear Call" event that matches this "New Call"
-						// Todo: think about this
-						for (var k = j + 1; k < lines.length; k++) {
-							// Looking for clear calls only
-							if (lines[k].indexOf("Clear Call") != -1) {
-								// Compare room number
-								locStart = lines[k].indexOf("- ") + 2;
-								locStop = locStart + 3;
-								if (lines[k].substring(locStart, locStop) == event.room) {
-									// Compare tag
-									tagStart = lines[k].indexOf("Tag:") + 5;
-									if (event.tag == lines[k].substring(tagStart, tagStart + 4)) {
-										event.duration = timeDiff(event.time, lines[k].substring(0, 8));
-										k = lines.length; // break out of loop, we found the end time
-									}
+					// Date parsed from filename
+					event.date = fileName.substring(4, 12);
+					event.date = event.date.substring(0, 4) + "-" + event.date.substring(4, 6) + "-" + event.date.substring(6, 8);
+					// Time
+					event.time = lines[i].substring(0, 8); // ignore milliseconds
+					// Location
+					var locStart = lines[i].indexOf("- ") + 2;
+					event.room = lines[i].substring(locStart, locStart + 3);
+					// Tag
+					var tagStart = lines[i].indexOf("Tag:") + 5;
+					event.tag = lines[i].substring(tagStart, tagStart + 4);
+					// Bell code
+					if (lines[i].indexOf("NURSE CALL") != -1) {
+						event.bell = "Nurse Call";
+					} else if (lines[i].indexOf("BED EMERG") != -1) {
+						event.bell = "Bed Emergency";
+					} else if (lines[i].indexOf("BED PAN") != -1) {
+						event.bell = "Bed Pan";
+					} else if (lines[i].indexOf("PAIN") != -1) {
+						event.bell = "Pain";
+					} else if (lines[i].indexOf("CORD OUT") != -1) {
+						event.bell = "Cord Out";
+					} else if (lines[i].indexOf("BATH") != -1) {
+						event.bell = "Bathroom";
+					}
+					// Duration. Look ahead through log to find "Clear Call" event that matches this "New Call"
+					// Todo: think about this
+					for (var j = i + 1; j < lines.length; j++) {
+						// Looking for clear calls only
+						if (lines[j].indexOf("Clear Call") != -1) {
+							// Compare room number
+							locStart = lines[j].indexOf("- ") + 2;
+							locStop = locStart + 3;
+							if (lines[j].substring(locStart, locStop) == event.room) {
+								// Compare tag
+								tagStart = lines[j].indexOf("Tag:") + 5;
+								if (event.tag == lines[j].substring(tagStart, tagStart + 4)) {
+									event.duration = timeDiff(event.time, lines[j].substring(0, 8));
+									j = lines.length; // break out of loop, we found the end time
 								}
 							}
-						} // End of duration parsing
+						}
+					} // End of duration parsing
 
-						log.push(event);
-					} // End of New Call event handling
+					log.push(event);
+				} // End of New Call event handling
 
-				} // End of line-by-line file processing
+			} // End of line-by-line file processing
 
-				var html = logToTable(log);
-				html += document.getElementById("displayArea").innerHTML; // New tables are inserted above the old
-				html = "<p>Total callbells: " + log.length + "</p>" + html // Insert statistics
-				displayArea.innerHTML = html;
-				//console.log(html+"\n\n");
-
-			} // End callback for file loaded
-			 reader.readAsText(file);
-		} // End of files processing
- 
-    });
+			displayArea.innerHTML = logToTable(log);
+		} // end reader.onload
+		reader.readAsText(file);
+	}
 	
 	// Takes a log, returns a string containing html
 	function logToTable(log) {

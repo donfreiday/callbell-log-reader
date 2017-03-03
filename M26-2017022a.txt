@@ -1,0 +1,9 @@
+00:02:41.317 M026 0 C CN Received. New Call: BED EMERG for 2S - 215 Bed (NV:2ND FL HR1:8.1) Tag: 0718 CT: 8 Rpt: 0
+00:03:01.689 M026 0 C CC Received. Calling Clear Call: BED EMERG for 2S - 215 Bed (NV:2ND FL HR1:8.1) Tag: 0718 CT: 8 Rpt: 0
+00:03:05.830 M026 0 C CN Received. New Call: BED EMERG for 2S - 215 Bed (NV:2ND FL HR1:8.1) Tag: 0719 CT: 8 Rpt: 0
+00:03:08.331 M026 0 C CC Received. Calling Clear Call: BED EMERG for 2S - 215 Bed (NV:2ND FL HR1:8.1) Tag: 0719 CT: 8 Rpt: 0
+00:03:37.612 M026 0 C CN Received. New Call: BED EMERG for 2S - 215 Bed (NV:2ND FL HR1:8.1) Tag: 071A CT: 8 Rpt: 0
+00:03:59.335 M026 0 C CC Received. Calling Clear Call: BED EMERG for 2S - 215 Bed (NV:2ND FL HR1:8.1) Tag: 071A CT: 8 Rpt: 0
+00:11:44.539 M026 0 C CN Received. New Call: NURSE CALL for 2S - 217 Bed (NV:2ND FL HR1:6.1) Tag: 071B CT: 1 Rpt: 0
+00:12:10.552 M026 0 C CC Received. Calling Clear Call: NURSE CALL for 2S - 217 Bed (NV:2ND FL HR1:6.1) Tag: 071B CT: 1 Rpt: 0
+

@@ -1,5 +1,3 @@
-Purging file: C:\West-Com\FocusCare\log\M26-20161125.TXT
-00:01:56.475 M026 0 I Recalling call NURSE CALL for 2S - 213 Bed (NV:2ND FL HR1:10.1) Tag: 0788 CT: 1 Rpt: 0
 00:03:58.538 M026 0 C CN Received. New Call: BED EMERG for 2S - 205 Bed (NV:2ND FL HR2:5.1) Tag: 090E CT: 8 Rpt: 0
 00:03:59.772 M026 0 C CC Received. Calling Clear Call: NURSE CALL for 2S - 213 Bed (NV:2ND FL HR1:10.1) Tag: 0788 CT: 1 Rpt: 1
 00:04:25.685 M026 0 C CC Received. Calling Clear Call: BED EMERG for 2S - 205 Bed (NV:2ND FL HR2:5.1) Tag: 090E CT: 8 Rpt: 0
