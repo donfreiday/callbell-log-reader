@@ -14,7 +14,6 @@ window.onload = function() {
 		var fileName = file.name;
 		var reader = new FileReader();
 		reader.onload = function(e) {
-			console.log("Made it here");
 			// Get result, split into an array of lines
 			var lines = reader.result.split(/[\r\n]+/g); // tolerate both Windows and Unix linebreaks
 			// Process each line in the log file
@@ -78,7 +77,6 @@ window.onload = function() {
 				} // End of New Call event handling
 
 			} // End of line-by-line file processing
-
 			displayArea.innerHTML = logToTable(log);
 		} // end reader.onload
 		reader.readAsText(file);
