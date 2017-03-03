@@ -1,16 +1,35 @@
-window.onload = function() {
-    var fileInput = document.getElementById('fileInput');
-    var displayArea = document.getElementById('displayArea');
-	var log = new Array();
+var log = {
+    calls : new Array(),
+    toTable: function() {
+		// Build a table
+		var html =
+			"<table class=\"table table-striped\">" +
+			"<thead>" +
+			"<tr>" +
+			"<th>Date</th>" +
+			"<th>Time</th>" +
+			"<th>Room</th>" +
+			"<th>Duration</th>" +
+			"<th>Bell</th>" +
+			"</tr>" +
+			"</thead>" +
+			"<tbody>";
 
-	// Process all files and add to log on fileInput element change event
-    fileInput.addEventListener('change', function(e) {
-		for (var i = 0; i < fileInput.files.length; i++) {
-			readLogFile(fileInput.files[i]);
-		} 
-     }); // End of files processing
-	
-	function readLogFile(file) {
+		// Append table rows for each log event
+		for (var i = 0; i < this.calls.length; i++) {
+			html +=
+				"<tr>" +
+				"<td>" + this.calls[i].date + "</td>" +
+				"<td>" + this.calls[i].time + "</td>" +
+				"<td>" + this.calls[i].room + "</td>" +
+				"<td>" + this.calls[i].duration + "</td>" +
+				"<td>" + this.calls[i].bell + "</td>" +
+				"</tr>";
+		}
+		html += "</tbody></table>";
+		return html;
+	},
+	readFile: function(file) {
 		var fileName = file.name;
 		var reader = new FileReader();
 		reader.onload = function(e) {
@@ -72,52 +91,34 @@ window.onload = function() {
 							}
 						}
 					} // End of duration parsing
-
-					log.push(event);
+					log.calls.push(event); // Add event to calls array
 				} // End of New Call event handling
 
 			} // End of line-by-line file processing
-			displayArea.innerHTML = logToTable(log);
+			displayArea.innerHTML = log.toTable();
 		} // end reader.onload
 		reader.readAsText(file);
 	}
-	
-	// Takes a log, returns a string containing html
-	function logToTable(log) {
-		// Build a table
-            var html =
-                "<table class=\"table table-striped\">" +
-                "<thead>" +
-                "<tr>" +
-                "<th>Date</th>" +
-                "<th>Time</th>" +
-                "<th>Room</th>" +
-                "<th>Duration</th>" +
-                "<th>Bell</th>" +
-                "</tr>" +
-                "</thead>" +
-                "<tbody>";
+} // end log definition
 
-            // Append table rows for each log event
-            for (var i = 0; i < log.length; i++) {
-                html +=
-                    "<tr>" +
-                    "<td>" + log[i].date + "</td>" +
-                    "<td>" + log[i].time + "</td>" +
-                    "<td>" + log[i].room + "</td>" +
-                    "<td>" + log[i].duration + "</td>" +
-                    "<td>" + log[i].bell + "</td>" +
-                    "</tr>";
-            }
-            html += "</tbody></table>";
-			return html;
-	}
-	
+window.onload = function() {
+    var fileInput = document.getElementById('fileInput');
+    var displayArea = document.getElementById('displayArea');
 
-    // expects 24h format strings "HH:MM:SS"
-    // will not gracefully handle periods > 24h obviously
-    // returns difference in seconds
-    function timeDiff(start, end) {
+	// Process all files and add to log on fileInput element change event
+    fileInput.addEventListener('change', function(e) {
+		for (var i = 0; i < fileInput.files.length; i++) {
+			log.readFile(fileInput.files[i]);
+		} 
+     }); // End of files processing  
+	
+} // end window.onload
+
+
+/////////////////////////////////////////////////////////////////////////
+// Utility methods //////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////
+function timeDiff(start, end) {
         start = start.split(":");
         start = Number(start[0]) * 3600 + Number(start[1] * 60) + Number(start[2]); // Convert to seconds
         end = end.split(":");
@@ -137,4 +138,3 @@ window.onload = function() {
         var seconds = time - minutes * 60;
         return str_pad_left(minutes, '0', 2) + ':' + str_pad_left(seconds, '0', 2);
     }
-} // end window.onload
