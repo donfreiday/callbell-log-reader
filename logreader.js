@@ -12,9 +12,9 @@ window.onload = function() {
             var log = new Array();
 
             // Add each callbell event to log
-            for (var i = 0; i < lines.length; i++) {
+            for (var j = 0; j < lines.length; j++) {
                 // Type of event. Only process "New Call" log.
-                if (lines[i].indexOf("New Call") != -1) {
+                if (lines[j].indexOf("New Call") != -1) {
                     var event = {
                         date: "unknown",
                         room: "unknown",
@@ -29,45 +29,45 @@ window.onload = function() {
                     event.date = event.date.substring(0, 4) + "-" + event.date.substring(4, 6) + "-" + event.date.substring(6, 8);
 
                     // Time
-                    event.time = lines[i].substring(0, 8); // ignore milliseconds
+                    event.time = lines[j].substring(0, 8); // ignore milliseconds
 
                     // Location
-                    var locStart = lines[i].indexOf("- ") + 2;
-                    event.room = lines[i].substring(locStart, locStart + 3);
+                    var locStart = lines[j].indexOf("- ") + 2;
+                    event.room = lines[j].substring(locStart, locStart + 3);
 
                     // Tag
-                    var tagStart = lines[i].indexOf("Tag:") + 5;
-                    event.tag = lines[i].substring(tagStart, tagStart + 4);
+                    var tagStart = lines[j].indexOf("Tag:") + 5;
+                    event.tag = lines[j].substring(tagStart, tagStart + 4);
 
                     // Bell code
-                    if (lines[i].indexOf("NURSE CALL") != -1) {
+                    if (lines[j].indexOf("NURSE CALL") != -1) {
                         event.bell = "Nurse Call";
-                    } else if (lines[i].indexOf("BED EMERG") != -1) {
+                    } else if (lines[j].indexOf("BED EMERG") != -1) {
                         event.bell = "Bed Emergency";
-                    } else if (lines[i].indexOf("BED PAN") != -1) {
+                    } else if (lines[j].indexOf("BED PAN") != -1) {
                         event.bell = "Bed Pan";
-                    } else if (lines[i].indexOf("PAIN") != -1) {
+                    } else if (lines[j].indexOf("PAIN") != -1) {
                         event.bell = "Pain";
-                    } else if (lines[i].indexOf("CORD OUT") != -1) {
+                    } else if (lines[j].indexOf("CORD OUT") != -1) {
                         event.bell = "Cord Out";
-                    } else if (lines[i].indexOf("BATH") != -1) {
+                    } else if (lines[j].indexOf("BATH") != -1) {
                         event.bell = "Bathroom";
                     }
 
                     // Duration. Look ahead through log to find "Clear Call" event that matches this "New Call"
                     // Todo: think about this
-                    for (var j = i + 1; j < lines.length; j++) {
+                    for (var k = j + 1; k < lines.length; k++) {
                         // Looking for clear calls only
-                        if (lines[j].indexOf("Clear Call") != -1) {
+                        if (lines[k].indexOf("Clear Call") != -1) {
                             // Compare room number
-                            locStart = lines[j].indexOf("- ") + 2;
+                            locStart = lines[k].indexOf("- ") + 2;
                             locStop = locStart + 3;
-                            if (lines[j].substring(locStart, locStop) == event.room) {
+                            if (lines[k].substring(locStart, locStop) == event.room) {
                                 // Compare tag
-                                tagStart = lines[j].indexOf("Tag:") + 5;
-                                if (event.tag == lines[j].substring(tagStart, tagStart + 4)) {
-                                    event.duration = timeDiff(event.time, lines[j].substring(0, 8));
-                                    j = lines.length; // break out of loop, we found the end time
+                                tagStart = lines[k].indexOf("Tag:") + 5;
+                                if (event.tag == lines[k].substring(tagStart, tagStart + 4)) {
+                                    event.duration = timeDiff(event.time, lines[k].substring(0, 8));
+                                    k = lines.length; // break out of loop, we found the end time
                                 }
                             }
                         }
@@ -78,7 +78,19 @@ window.onload = function() {
 
             }
 
-            // Build a table to show in displayArea
+            var html = logToTable(log);
+            html += document.getElementById("displayArea").innerHTML; // New tables are inserted above the old
+            html = "<p>Total callbells: " + log.length + "</p>" + html // Insert statistics
+            displayArea.innerHTML = html;
+            //console.log(html);
+
+        } // End callback for file loaded
+        reader.readAsText(file);
+    });
+	
+	// Takes a log, returns a string containing html
+	function logToTable(log) {
+		// Build a table
             var html =
                 "<table class=\"table table-striped\">" +
                 "<thead>" +
@@ -104,14 +116,9 @@ window.onload = function() {
                     "</tr>";
             }
             html += "</tbody></table>";
-            html += document.getElementById("displayArea").innerHTML; // New tables are inserted above the old
-            html = "<p>Total callbells: " + log.length + "</p>" + html // Insert statistics
-            displayArea.innerHTML = html;
-            //console.log(html);
-
-        } // End callback for file loaded
-        reader.readAsText(file);
-    });
+			return html;
+	}
+	
 
     // expects 24h format strings "HH:MM:SS"
     // will not gracefully handle periods > 24h obviously
