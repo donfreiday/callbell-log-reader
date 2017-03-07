@@ -30,8 +30,8 @@ var log = {
 		return html;
 	},
 	readFile: function(file) {
-		var fileName = file.name;
-		var reader = new FileReader();
+		var fileName = file.name,
+			reader = new FileReader();
 		reader.onload = function(e) {
 			// Get result, split into an array of lines
 			var lines = reader.result.split(/[\r\n]+/g); // tolerate both Windows and Unix linebreaks
@@ -143,7 +143,7 @@ function timeDiff(start, end) {
 
     // stackoverflow
     function secondsToMMSS(time) {
-        var minutes = Math.floor(time / 60);
-        var seconds = time - minutes * 60;
+        var minutes = Math.floor(time / 60),
+			seconds = time - minutes * 60;
         return str_pad_left(minutes, '0', 2) + ':' + str_pad_left(seconds, '0', 2);
     }
